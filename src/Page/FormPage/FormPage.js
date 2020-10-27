@@ -18,9 +18,9 @@ function FormPage() {
       type: 'number',
     },
     {
-      label: 'Type of cars',
+      label: 'What was the car they used in stopping you?',
       type: 'dropdown',
-      options: ['cars', 'bikes', 'buses', 'aeroplanes'],
+      options: ['Honda', 'SUV', 'Toyota'],
     },
     {
       label: 'Describe what you experienced.',

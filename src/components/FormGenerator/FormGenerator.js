@@ -25,8 +25,9 @@ function FormGenerator({ form }) {
     );
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = e => {
     if (isFormEmpty()) {
+      e.preventDefault();
       alert('Fill all the form');
     } else {
       alert('Form Submitted');
@@ -93,7 +94,9 @@ function FormGenerator({ form }) {
             }
           }
         })}
-        <button type='submit'>Submit</button>
+        <button className='formGenerator__button' type='submit'>
+          Submit
+        </button>
       </form>
     </div>
   );

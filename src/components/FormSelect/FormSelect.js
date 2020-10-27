@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './FormSelect.css';
+
 function FormSelect({ label, options, value, handleChange }) {
   return (
     <div className='formSelect'>

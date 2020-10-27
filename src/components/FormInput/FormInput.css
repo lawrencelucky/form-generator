@@ -1,0 +1,39 @@
+.formInput {
+  margin-bottom: 30px;
+}
+
+.formInput > label {
+  font-size: 14px;
+}
+
+.formInput > input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #f0f0f0;
+  color: #f0f0f0;
+  width: 300px;
+  margin-top: 5px;
+  padding: 10px 5px;
+  font-size: 16px;
+}
+
+.formInput > input:focus {
+  outline: 0;
+}
+
+.formInput > input[type='date']::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url(https://res.cloudinary.com/ddu7ud0f0/image/upload/v1603813892/calendar_rql0xm.png)
+    no-repeat;
+  background-size: 16px;
+  background-position: right;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+}
+
+.formInput > input::-webkit-calendar-picker-indicator:hover {
+  cursor: pointer;
+}

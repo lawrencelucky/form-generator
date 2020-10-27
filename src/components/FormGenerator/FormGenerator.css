@@ -1,13 +1,17 @@
-/* .formGenerator__label {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  width: 50%;
+.formGenerator__button {
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  color: #f0f0f0;
+  font-size: 14px;
+  cursor: pointer;
 }
 
-.formGenerator__label--compulsory {
-  position: absolute;
-  right: 0;
-} */
+.formGenerator__button:hover {
+  background-color: #2c5364;
+}
+
+.formGenerator__button:focus {
+  outline: 0;
+}

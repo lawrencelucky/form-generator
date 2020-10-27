@@ -1,0 +1,25 @@
+.formTextarea {
+  margin-bottom: 30px;
+}
+
+.formTextarea > label {
+  font-size: 14px;
+}
+
+.formTextarea > textarea {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #f0f0f0;
+  width: 500px;
+  color: #f0f0f0;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.formTextarea > textarea:focus {
+  outline: 0;
+}
+
+.formTextarea > textarea::-webkit-scrollbar {
+  width: 0;
+}
