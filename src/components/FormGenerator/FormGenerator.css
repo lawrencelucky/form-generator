@@ -1,0 +1,13 @@
+/* .formGenerator__label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.formGenerator__label--compulsory {
+  position: absolute;
+  right: 0;
+} */

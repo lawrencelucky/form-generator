@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
 
+import FormPage from './Page/FormPage/FormPage';
+
 function App() {
   return (
     <div className='app'>
-      <h1>The Form Generator</h1>
+      <FormPage />
     </div>
   );
 }
